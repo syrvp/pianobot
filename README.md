@@ -9,3 +9,8 @@ node bot.js
 or
 
 `sh install.sh` 
+
+
+
+
+~~language details when~~
