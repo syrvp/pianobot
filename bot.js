@@ -39,6 +39,9 @@ console.log(`online`);
 			.setDescription('joined ' + msg.member.voiceChannel.name)			
 			.setColor(msg.member.displayHexColor)
 		msg.channel.send(embed); });
+		
+	}else if (msg.content.toLowerCase().startsWith(prefix + 'help')) {
+		msg.channel.send('Use ' + prefix + ' play to make the bot join your voice channel. Then type numbers from 1 to 9 to play sounds.');
 
 	}else if (msg.content.length === 1) {
 
